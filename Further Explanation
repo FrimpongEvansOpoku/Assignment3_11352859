@@ -1,0 +1,71 @@
+# Assignment3_11352859
+
+# Data Structures and Algorithms 1 (DCIT 204)
+
+# Search and Sort Application
+
+This Java application provides a simple command-line interface for users to perform searching and sorting operations on a list of numbers. Users can choose between different algorithms for each operation and observe the running time and time complexity of the chosen algorithm.
+
+# Features
+
+User Input: Users can input a list of numbers to be searched or sorted.
+Searching: Linear search algorithm is provided for searching a specific number within the list.
+Sorting: Both bubble sort and quick sort algorithms are available for sorting the list.
+Running Time Calculation: The application calculates and displays the running time of the chosen algorithm.
+Time Complexity: The application provides the theoretical time complexity of the chosen algorithm.
+
+# Usage
+
+1. Compile the Java application using your preferred Java compiler.
+2. Run the application using the Java Virtual Machine (JVM).
+3. Follow the on-screen prompts to input a list of numbers and choose the desired operation (searching or sorting).
+4. If searching, input the number you wish to find within the list.
+5. If sorting, choose between bubble sort and quick sort algorithms.
+6. Observe the output, which will include the running time and time complexity of the chosen algorithm, as well as the search result or sorted list.
+
+# Algorithms and Time Complexity
+
+# Searching
+
+Linear Search: Iterates through the list sequentially to find the target value.
+Time Complexity: O(n), where n is the number of elements in the list.
+
+# Sorting
+
+Bubble Sort: Compares adjacent elements and swaps them if they are in the wrong order.
+Time Complexity: O(n^2), where n is the number of elements in the list.
+
+Quick Sort: Uses a divide-and-conquer strategy to sort the list.
+Time Complexity: O(n log n), where n is the number of elements in the list.
+
+# Example
+
+This is an example of how the application works:
+
+Enter a list of numbers separated by spaces:
+10 5 3 8 2 7 6
+Choose an option:
+1. Search for a number
+2. Sort the list
+1
+Enter the number to search for:
+8
+Time complexity: O(n)
+Running time: 1234 nanoseconds
+Number found at index 3
+
+In this example, the user inputs a list of numbers, chooses to search for a number, inputs the number to search for (8), and the application outputs the time complexity, running time, and the index at which the number was found.
+
+# Note
+
+- The actual running time can vary based on the system's performance and the Java Virtual Machine (JVM) implementation.
+- The time complexity is a theoretical measure that describes how the execution time grows with the size of the input.
+
+# Compilation and Running
+
+To compile and run the application, use the following commands in your terminal:
+
+javac Assigmnent3_11352859.java
+java Assigmnent3_11352859
+
+This README.md file provides a comprehensive guide for users to understand and interact with the Search and Sort Application. Users can refer to this document for instructions on how to use the application and interpret its output.
